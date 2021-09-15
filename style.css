@@ -2,6 +2,8 @@
     margin: 0px;
 }
 
+/* header */
+
 header {
     display: flex;
     flex-direction: row;
@@ -17,10 +19,13 @@ header {
 }
 
 #logo {
-    height: 27px;
+    height: 25px;
     align-self: center;
 }
 
+input {
+    font-size: 17px;
+}
 
 #search {
     display: flex;
@@ -29,6 +34,7 @@ header {
     border-radius: 10px;
     padding: 10px;
     width: 30vw;
+    margin-left: 13px;
 }
 
 #search img {
@@ -50,21 +56,25 @@ header {
     width: 30vw;
     justify-content: flex-end;
     font-weight: 530;
+    margin-right: 13px;
 }
 
 #menu img {
-    height: 30px;
+    height: 29px;
+    padding-right: 10px;
 }
 
 #signup {
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 16px;
     background-color: rgb(228, 228, 228);
     border-radius: 50px;
     padding: 10px;
     padding-left: 13px;
     padding-right: 13px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
+    font-weight: bold;
+    font-size: 14px;
 }
 
 #signup:hover {
@@ -79,6 +89,8 @@ header {
     padding: 10px;
     padding-left: 13px;
     padding-right: 13px;
+    font-weight: bold;
+    font-size: 14px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
 }
 #login:hover {
@@ -90,6 +102,358 @@ header {
     align-self: center;
 }
 
+/* main */
+
 main {
     font-family: Montserrat;
 }
+
+#bigrecepie {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+#imagebigrec {
+    margin-top: 30px;
+    width: 640px;
+    border-radius: 0.5%;
+}
+
+h1 {
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#infounder {
+    margin-top: 15px;
+    color: #757575;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+#middlethreepart {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 13px;
+    justify-content: center;
+
+}
+
+#left {
+    display: flex;
+    flex-direction: row;
+}
+
+#slash {
+
+    align-self: flex-end;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.big {
+    font-size: 35px;
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+#small {
+    align-self: flex-end;
+    
+}
+
+.underword {
+    margin-top: 5px;
+    color: #515151;
+}
+
+#middle {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 250px;
+    border-right: 1px solid rgb(236, 236, 236);
+    border-left: 1px solid rgb(236, 236, 236);
+}
+
+#middle img {
+    height: 50px;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 100%;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+
+  }
+
+  #middle p {
+    font-weight: 600;
+    color: #424242;
+    margin-top: 5px;
+}
+
+/* recipe */
+
+.line {
+    height: 0px;
+    width: 600px;
+    margin: auto;
+    border-bottom: 1px solid rgb(236, 236, 236); 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+#ingredientsstart {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+    padding-top: 10px;
+
+}
+
+
+.ingre {
+    font-size: 20px;
+    font-weight: 600;
+    color: #212121;
+}
+
+#serves {
+    background-color: #f5f5f5;
+    color: #757575;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 13px;
+}
+
+#actualrecepie {
+    width: 600px;
+    margin: auto;
+}
+
+#actualrecepie p {
+    color: #424242;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#buttonsunder {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 600px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+#howtobutton {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 15px;
+    font-weight: 530;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
+}
+
+#howtobutton img,
+#savebutton img {
+    height: 12px;
+    align-self: center;
+    margin-right: 5px;
+}
+
+#howtobutton:hover {
+    background-color: rgba(228, 228, 228, 0.342);
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.116);
+}
+#savebutton:hover {
+    background-color: #cc1f0c;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.116);
+}
+
+#savebutton {
+    display: flex;
+    flex-direction: row;
+    background-color: #cc1f0c84;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 530;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.116);
+}
+
+#seeallepi {
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    height: 10px;
+}
+
+#fromepi {
+    align-self: center;
+    margin-right: 15px;
+    margin-bottom: 4px;
+}
+
+#seeallepi section {
+    display: flex;
+    flex-direction: row;
+}
+
+#seeall {
+    font-size: 14px;
+    align-self: center;
+    margin-right: 10px;
+    color: #616161;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#seeall:hover {
+    color: #000000;
+}
+
+
+#seeallepi img {
+    align-self: center;
+    height: 12px;
+}
+
+#findmore {
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* here comes the json */
+
+
+#firstfood, #secondfood {
+    gap: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
+.smalllogofood {
+    width: 17px;
+     height: 17px;
+     align-self: center;
+     margin-right: 5px;
+}
+
+.timeimg {
+    width: 17px;
+     height: 17px;
+     margin-right: 5px;
+}
+
+  
+.middlepart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.middlepart section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.source {
+    align-self: center;
+    font-weight: 600;
+    color: #424242;
+    font-size: 15px;
+}
+
+.rating {
+    align-self: center;
+    color: #424242;
+    background-color: white;
+     padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10%;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.116);
+}
+
+
+.bottompart {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+        color: #616161;
+}
+
+.bottompart section {
+    display: flex;
+    flex-direction: row;
+}
+
+.time {
+    font-size: 14px;
+}
+.ratingsmall {
+    font-size: 11px;
+}
+
+
+
+.imagesquare{
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.imagesquare:hover > .photofood{
+    filter: blur(4px);
+}
+
+.photofood {
+    height: 100%;
+}
+
+.foodname {
+    position: absolute;
+    top: 190px;
+    background-color: rgba(0, 0, 0, 0.472);
+    color: white;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
