@@ -456,4 +456,56 @@ h1 {
     cursor: pointer;
 }
 
+/* footer */
+
+#footercreate{
+    margin-top: 100px;
+    background-color:#EEEEEE;
+    padding: 70px;
+    padding-left: 100px;
+    font-family: montserrat;
+  }
+  
+  #logo2{
+    height: 25px;
+  }
+
+  #footercreate p {
+      font-size: 13px;
+      padding-top: 20px;
+  }
+
+  #socials{
+      padding-top: 20px;
+    height: 40px;
+  }
+
+  #footertext {
+      font-size: 8px;
+      display: flex;
+      justify-content: space-between;
+      padding-left: 500px;
+      padding-right: 100px;
+      position: absolute;
+  }
+
+  h2 {
+      margin-left: 0px;
+      margin-right: 140px;
+  }
+
+.createrow {
+    flex-direction: column;
+}
+
+ul {
+    padding-left: 0px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+
+
+
+
 
